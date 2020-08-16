@@ -1,0 +1,23 @@
+<mvc:View controllerName="ns.HTML5Module.controller.Home" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+                        <Label text="first sapui5 label"></Label>
+                        <Button text="Click Me!" press="onClick"></Button>
+                        <List>
+                            <items>
+                                <StandardListItem title="listitem1" description="desccription1"/>
+                                <StandardListItem title="listitem2" description="desccription2"/>
+                                <StandardListItem title="listitem3" description="desccription3"/>
+                                <StandardListItem title="listitem4" description="desccription4"/>
+                                <StandardListItem title="listitem5" description="desccription5"/>
+                            </items>
+                        </List>
+                    </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
